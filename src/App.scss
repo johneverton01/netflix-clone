@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #111111;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: 'Roboto', sans-serif;
+}
+
+.lists {
+  margin-top: -9.375rem
+}
+
+footer {
+  margin: 3.125rem 0;
+  text-align: center;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+}
